@@ -1,4 +1,4 @@
-<p align="center"><img src="https://understrap.com/wp-content/uploads/2022/02/Understrap_Logo_Color.svg" width="320" height="auto"></p>
+<p align="center"><img src="http://keysandkites.design/wp-content/uploads/2024/08/keys_and_kites_master.png" width="100" height="auto"></p>
 
 #### See: [Official Demo](https://demos.understrap.com) | Read: [Official Docs Page](https://docs.understrap.com/)
 
@@ -7,18 +7,6 @@
 Website: [keysandkites.com](https://keysandkites.com)
 
 Parent Theme Project: [github.com/understrap/understrap](https://github.com/understrap/understrap)
-
-Premium Child Themes: [understrap.com/child-themes/](https://understrap.com/child-themes/)
-
-
-## Documentation
-
-Full documentation for this starter theme is available at [docs.understrap.com](https://docs.understrap.com).
-
-
-## Questions
-
-For support requests and bugs, contact us [here](https://keysandkites.com).
 
 ## Basic Features
 
@@ -37,13 +25,6 @@ For support requests and bugs, contact us [here](https://keysandkites.com).
 This child theme uses Bootstrap 5 and requires [Understrap Parent Theme 1.1](https://wordpress.org/themes/understrap) or greater for best functionality. It does not create JS or CSS files that work with Bootstrap 4 markup. In fact, in the `functions.php` file, this child theme overrides the parent theme's customizer settings.
 
 If you want to build a child theme with Bootstrap 4, please use [the 1.0.1 child theme release](https://github.com/understrap/blank-theme/releases/tag/v1.0.1) as it was the last version built to support Bootstrap 4.
-
-## License
-
-Copyright 2022 [Howard Development & Consulting, LLC](https://howarddc.com).
-Understrap is distributed under the terms of the GNU GPL version 2
-
-http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 ## Credits
 - Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
