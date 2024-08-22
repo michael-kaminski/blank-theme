@@ -431,7 +431,7 @@ progress {
   --bt-gray-800: #343a40;
   --bt-gray-900: #212529;
   --bt-primary: #2C699A;
-  --bt-secondary: #6c757d;
+  --bt-secondary: #9336fd;
   --bt-success: #83E377;
   --bt-info: #00b2ca;
   --bt-warning: #EFEA5A;
@@ -439,7 +439,7 @@ progress {
   --bt-light: #f8f9fa;
   --bt-dark: #212529;
   --bt-primary-rgb: 44, 105, 154;
-  --bt-secondary-rgb: 108, 117, 125;
+  --bt-secondary-rgb: 147, 54, 253;
   --bt-success-rgb: 131, 227, 119;
   --bt-info-rgb: 0, 178, 202;
   --bt-warning-rgb: 239, 234, 90;
@@ -567,13 +567,13 @@ progress {
 
 .table-secondary {
   --bt-table-color: #000;
-  --bt-table-bg: #e2e3e5;
-  --bt-table-border-color: #cbccce;
-  --bt-table-striped-bg: #d7d8da;
+  --bt-table-bg: #e9d7ff;
+  --bt-table-border-color: #d2c2e6;
+  --bt-table-striped-bg: #ddccf2;
   --bt-table-striped-color: #000;
-  --bt-table-active-bg: #cbccce;
+  --bt-table-active-bg: #d2c2e6;
   --bt-table-active-color: #000;
-  --bt-table-hover-bg: #d1d2d4;
+  --bt-table-hover-bg: #d8c7ec;
   --bt-table-hover-color: #000;
   color: var(--bt-table-color);
   border-color: var(--bt-table-border-color);
@@ -872,7 +872,7 @@ progress {
   --bt-gray-800: #343a40;
   --bt-gray-900: #212529;
   --bt-primary: #2C699A;
-  --bt-secondary: #6c757d;
+  --bt-secondary: #9336fd;
   --bt-success: #83E377;
   --bt-info: #00b2ca;
   --bt-warning: #EFEA5A;
@@ -880,7 +880,7 @@ progress {
   --bt-light: #f8f9fa;
   --bt-dark: #212529;
   --bt-primary-rgb: 44, 105, 154;
-  --bt-secondary-rgb: 108, 117, 125;
+  --bt-secondary-rgb: 147, 54, 253;
   --bt-success-rgb: 131, 227, 119;
   --bt-info-rgb: 0, 178, 202;
   --bt-warning-rgb: 239, 234, 90;
@@ -929,7 +929,7 @@ progress {
 
 .text-bg-secondary {
   color: #FFFFFF !important;
-  background-color: RGBA(108, 117, 125, var(--bt-bg-opacity, 1)) !important;
+  background-color: RGBA(147, 54, 253, var(--bt-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -970,10 +970,10 @@ progress {
 }
 
 .link-secondary {
-  color: #6c757d !important;
+  color: #9336fd !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #565e64 !important;
+  color: #762bca !important;
 }
 
 .link-success {
@@ -5304,16 +5304,16 @@ progress {
 
 .has-secondary-color,
 .has-secondary-color:visited {
-  color: #6c757d;
+  color: #9336fd;
 }
 
 .has-secondary-background-color {
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #9336fd;
+  border-color: #9336fd;
 }
 
 .wp-block-button:hover .wp-block-button__link.has-white-background-color.has-secondary-color {
-  color: #6c757d;
+  color: #9336fd;
 }
 
 .has-success-color,

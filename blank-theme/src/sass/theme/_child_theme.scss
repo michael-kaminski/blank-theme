@@ -1,5 +1,15 @@
 :root {
-	
+	--bt-blue:    #2C699A;
+	--bt-indigo:  #9336fd;
+	--bt-purple:  #54478C;
+	--bt-pink:    #db5375;
+	--bt-red:     #c51f35;
+	--bt-orange:  #F29E4C;
+	--bt-yellow:  #EFEA5A;
+	--bt-green:   #83E377;
+	--bt-teal:    #16DB93;
+	--bt-cyan:    #00b2ca;
+	--bt-white:   #FFFFFF;
 	--bt-night: #06223B;
 	--bt-night-rgb: 6,34,59;
 	--bt-white: #FFFFFF;
@@ -209,28 +219,31 @@ input[type=button]:hover{
 .btn-outline-primary{
     color: var(--bt-night);
 }
-.btn-primary, 
-.form_area .gform_button.button{
-    color: var(--bt-night);
-    background: var(--bt-lemon-light);
-    outline-color: var(--bt-lemon-light);
-}
-.btn-primary:hover{
-    color: var(--bt-night);
-    background: var(--bt-lemon-light);
-    outline-color: var(--bt-lemon-light);
-}
-.btn-secondary,.mktoButton{
-	color: var(--bt-lemon-light) !important;
-	background: var(--bt-night) !important;
-	outline-color: var(--bt-night) !important;
+.btn-primary{
+    color: var(--bt-white) !important;
+	background: var(--bt-blue) !important;
+	outline-color: var(--bt-blue) !important;
 	font-family: var(--bt-font-stack) !important;
+	&:hover{
+	    color: var(--bt-white) !important;
+		background: var(--bt-blue) !important;
+		outline-color: var(--bt-blue) !important;
+	}
 }
-.btn-secondary:hover,.mktoButton:hover{
-    color: var(--bt-lemon-light) !important;
-	background: var(--bt-night) !important;
-	outline-color: var(--bt-night) !important;
+
+.btn-secondary,
+.mktoButton{
+	color: var(--bt-white) !important;
+	background: var(--bt-indigo) !important;
+	outline-color: var(--bt-indigo) !important;
+	font-family: var(--bt-font-stack) !important;
+	&:hover{
+	    color: var(--bt-white) !important;
+		background: var(--bt-indigo) !important;
+		outline-color: var(--bt-indigo) !important;
+	}
 }
+
 
 .btn-outline-primary,
 .btn-outline-secondary,
