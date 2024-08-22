@@ -3,5 +3,74 @@
 // Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
 
 
-$purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
-$primary: $purple;  // Once we've changed the value, we'll also make it the primary brand color.
+// $purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
+// $primary: $purple;  // Once we've changed the value, we'll also make it the primary brand color.
+
+
+// scss-docs-start color-variables
+$blue:    #2C699A;
+$indigo:  #9336fd;
+$purple:  #54478C;
+$pink:    #db5375;
+$red:     #c51f35;
+$orange:  #F29E4C;
+$yellow:  #EFEA5A;
+$green:   #83E377;
+$teal:    #16DB93;
+$cyan:    #00b2ca;
+$white:   #FFFFFF;
+// scss-docs-end color-variables
+
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:                true;
+$enable-rounded:              true;
+$enable-shadows:              true;
+$enable-gradients:            true;
+$enable-transitions:          true;
+$enable-reduced-motion:       true;
+$enable-smooth-scroll:        true;
+$enable-grid-classes:         true;
+$enable-container-classes:    true;
+$enable-cssgrid:              true;
+$enable-button-pointers:      true;
+$enable-rfs:                  true;
+$enable-validation-icons:     true;
+$enable-negative-margins:     false;
+$enable-deprecation-messages: true;
+$enable-important-utilities:  true;
+
+// Prefix for :root CSS variables
+
+$variable-prefix:             bt-; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix:                      $variable-prefix;
+
+// Gradient
+//
+// The gradient which is added to components if `$enable-gradients` is `true`
+// This gradient is also added to elements with `.bg-gradient`
+// scss-docs-start variable-gradient
+$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
+// scss-docs-end variable-gradient
+
+// scss-docs-start spacer-variables-maps
+$spacer: 40px;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+) !default;
+// scss-docs-end spacer-variables-maps
+
+
+
+
+
+

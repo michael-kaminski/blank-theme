@@ -41,7 +41,9 @@
     "url": "replace/me/blank-theme/issues"
   },
   "homepage": "https://keysandkites.com",
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "^5.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",

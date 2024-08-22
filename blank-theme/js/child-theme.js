@@ -1,6 +1,6 @@
 /*!
-  * Understrap v1.2.0 (https://understrap.com)
-  * Copyright 2013-2022 The Understrap Authors (https://github.com/understrap/understrap/graphs/contributors)
+  * Understrap v1.2.0 (https://keysandkites.com)
+  * Copyright 2013-2024 Keys & Kites (https://keysandkites.com)
   * Licensed under GPL-3.0 (undefined)
   */
 (function (global, factory) {
