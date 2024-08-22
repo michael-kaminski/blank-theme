@@ -1,45 +1,14 @@
 <?php
 /**
- * ACF: Flexible Content > Layouts > Custom Featured Posts Section
+ * ACF: Flexible Content > Layouts > Content Section
  *
  */
-$container = get_theme_mod( 'understrap_container_type' );
-//Section Classes
-$padding_classes = '';
-$bg_classes = '';
-$gradient_class = $args['gradient_class'];
-$bg_color_class = $args['bg_color'];
-$top_padding = $args['top_padding'];
-$bottom_padding = $args['bottom_padding'];
 
-$padding_classes = "$top_padding $bottom_padding";
-$bg_classes = "$gradient_class $bg_color_class";
-$section_classes = "$padding_classes $bg_classes";
+//include options vars
+include 'section-options.php'; 
 
-
-//Section ID
-$section_id = $args['section_id_group']['section_id']; //text field
-$unique_id = wp_unique_id();
-$the_id = $section_id ?: 'content-section-' . $unique_id;
-
-//Section Inline Styles
-$custom_top_padding = $args['custom_top_padding'];
-$custom_bottom_padding = $args['custom_bottom_padding'];
-$has_custom_padding = 'no';
-$top_padding_style = '';
-$bottom_padding_style = '';
-$padding_styles = '';
-if ($top_padding == 'pad-custom-top') :
-	$top_padding_style = "padding-top:{$custom_top_padding}px !important;";
-endif;
-if ($bottom_padding == 'pad-custom-bottom') :
-	$bottom_padding_style = "padding-bottom:{$custom_bottom_padding}px !important;";
-endif;
-$padding_styles = "$top_padding_style $bottom_padding_style";
-
-if ($custom_top_padding || $custom_bottom_padding) : 
-	$has_custom_padding = 'yes';
-endif;
+//add to $classList
+$classList .= ' content_section';
 
 //Content
 $enable_headline = $args['section_headline']['enable_section_headline'];
@@ -49,7 +18,7 @@ $layout_class = $custom_post_group['layout_class'];
 $custom_posts = $custom_post_group['custom_post_repeater'];
 
 ?>
-<div id="<?php echo $the_id; ?>" class="sa_wrapper <?php echo esc_attr($section_classes); ?>  featured_posts" style="<?php if ( $has_custom_padding == 'yes' ) : echo $padding_styles; endif; ?>">
+<div id="<?php echo $the_id;?>" <?php sectionClasses($inlineClasses); ?> <?php inlineStyles($inlineStyles); ?>>
 
 	<?php if( $enable_headline == 'yes' ) : ?>
 	<div class="<?php echo esc_attr( $container ); ?> text-center">

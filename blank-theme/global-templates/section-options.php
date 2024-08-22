@@ -63,12 +63,5 @@ if ( $has_inline_styles == 'yes' ) :
 	$inlineStyles = "style='{$styleList}'";
 endif; 
 
-//Functions
-// function sectionClasses($inlineClasses) {
-//    	echo $inlineClasses;
-// }
-// function inlineStyles($inlineStyles) {
-// 	echo $inlineStyles;
-// }
 
 ?>

@@ -9,10 +9,9 @@
 include 'section-options.php'; 
 
 //add to $classList
-$classList .= ' template_section';
+$classList .= ' button_section';
 
 //Content Vars
-$section_heading = $args['section_heading'];
 $button_group = $args['button_group'];
 $section_alignment = $button_group['section_alignment'];
 $buttons = $button_group['button'];//repeater
